@@ -1,0 +1,43 @@
+id,name,product_image,price,description
+1,Iphone 10,product_image/iphone2.jpg,15000,Iphone 13 from USA
+2,iphone 14,product_image/iphone2_HE9bysa.jpg,2000,Iphone 14 from USA
+3,home chair,product_image/chair6.jpg,20,char for  home
+4,ipad 10,product_image/ipad1.jpg,2100,Ipad from USA
+5,ipad 2,product_image/ipad2.jpg,1200,ipad from china
+6,ipad 13,product_image/ipad3.webp,1800,ipad13 from USA
+7,office chair,product_image/chair8.webp,15,office chairs for cheap prices
+8,chair11,product_image/chair2.webp,13,chair for photo studio
+9,chair12,product_image/chair10.png,10,office chairs
+10,chair13,product_image/chair1.jpg,3,chair for studio
+11,chair14,product_image/chair11.jpg,70,chairs for eating room
+12,laptop,product_image/mac2.webp,2600,Mac laptop on cheap price
+13,laptop mac,product_image/mac3.jpg,1200,Mac laptop  new model
+14,Suite,product_image/suite7.jpg,120,Suite for men
+15,Suite1,product_image/suite9.webp,130,Suite for men
+16,Suite2,product_image/suite8.jpg,140,Suite for men
+17,Suite,product_image/suite10.webp,150,Suite for men
+18,Suite3,product_image/suite3.webp,135,Suite for men
+19,Suite4,product_image/suite2.webp,95,Suite for men
+20,Suite5,product_image/suite6.webp,189,Suite for men
+21,Iphone15,product_image/iphone3.jpg,1270,Iphone 13 from USA
+22,iphone12,product_image/iphone6.webp,950,Iphone 13 from USA
+23,Ihpne13,product_image/iphone5.webp,1066,Iphone 13 from USA
+24,Iphone 10,product_image/iphone1.jpg,920,Iphone 13 from USA
+25,ipad14,product_image/ipad7.jpg,1500,Iphone 14 from USA
+26,ipad12,product_image/ipad12.jpg,500,Ipad from USA
+27,dress1,product_image/dress5.jpg,23,Dress for Women
+28,dress2,product_image/dress5.webp,20,Dress for Women
+29,Dress,product_image/dress8.webp,24,Dress for Women
+31,shoes,product_image/shoe3.webp,24,Jordan shoe
+32,shoes3,product_image/shoe6.jpg,21,shoes for shorts
+33,shoes4,product_image/shoe15.jpg,15,sport shoes
+34,shoes5,product_image/shoe13.jpg,16,sport shoes
+35,shoes6,product_image/shoe10.webp,25,nice shoes
+36,shoes7,product_image/shoe12.webp,13,shoes for shorts
+37,shoes8,product_image/shoe14.jpg,23,nice shoes
+38,shoes8,product_image/shoe8.webp,16,gentlemen shoes
+39,shoes10,product_image/shoe16.webp,27,nike shoes
+40,shoes11,product_image/shoe9.webp,31,sport shoes
+41,shoes12,product_image/shoe18.jpg,21,nice shoes
+42,laptop 1,product_image/hp10.webp,167,Hp laptop
+30,shoes1,product_image/shoe1.webp,20,sport shoes

@@ -1,0 +1,5 @@
+id,password,last_login,is_superuser,username,first_name,last_name,email,is_staff,is_active,date_joined
+3,pbkdf2_sha256$180000$i3LXDczsEmBW$/sLLEPvYB91Pd2S8YhL5XwxCK5qQC9TX9c4oha3gbjw=,2023-10-26 21:04:26.644588+03,f,joy1,Nkwihoreze,joy,"",f,t,2023-10-26 18:33:11.740635+03
+4,pbkdf2_sha256$180000$w7mWeb0jnnu1$ywz+N6Xqzzj/+JbAyFU1CfkzNcMpMw6IDY/ZmP8aY0g=,2023-10-26 21:12:59.753577+03,f,malidioscord,Dioscord,NGENZI Mali,"",f,t,2023-10-26 21:12:46.784439+03
+1,pbkdf2_sha256$180000$1QHxht1sWNjq$R+08lzZl5UUcJJ9zpq/UHHHFJatBl/Dlm7kH3gmUNfQ=,2023-10-26 21:19:41.238076+03,t,Group-work,"","",clemalex00@gmail.com,t,t,2023-10-26 15:20:11.699635+03
+2,pbkdf2_sha256$180000$k56q3M6CBDgB$Z2fcXSkDof9qrL/AgzhJWQsoD4jU2UKgS3JV2Nez2LA=,2023-10-26 21:24:41.931931+03,f,clement,NSHIMIYIMANA,CLEMENT,"",f,t,2023-10-26 15:21:42.301728+03

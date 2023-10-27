@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Isoko </title>
+  <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+ </style>
+</head>
+
+<body style="background-color:#f7f7f7;">
+  {%if request.user.is_authenticated%}
+    {% include "ecom/customer_navbar.html" %}
+  {%else%}
+    {% include "ecom/navbar.html" %}
+  {%endif%}
+  <br><br>
+  <!DOCTYPE html>
+  <!-- Coding By CodingNepal - codingnepalweb.com -->
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title> An About Us  </title>
+  </head>
+  <body>
+    <section class="about-us">
+      <div class="about">
+      <img src="clement.jpg" class="pic">
+        <div class="text">
+          <h1>About</h1>
+          <h5>Nshimiyimana Clement <span>D</span></h5>
+            <p>
+              Greetings! I'm Nshimiyimana Clement, 
+              and I'm passionate about the ever-evolving world of data. 
+              With a foundation in computer science and expertise in Data Mining, 
+              I've dedicated my academic and professional journey to unraveling the mysteries hidden within the vast realm of data.
+            </p>
+            <h5>Educational Background</h5>
+            <p>
+              My journey began with a bachelor's degree in Computer Science, 
+              where I honed my programming skills, problem-solving abilities, 
+              and a deep understanding of the inner workings of computer systems. 
+              This laid the groundwork for my future endeavors in the data field.
+            </p>
+            <p>
+              I then pursued a master's degree in Data Science, 
+              a discipline that encapsulates the art of turning raw data into actionable insights. 
+              During my master's studies, 
+              I delved into various aspects of data, from data collection and preprocessing to 
+              the development of predictive models and the art of storytelling through data visualization. 
+            </p>
+          {% comment %} <div class="data">
+              <a href="#" class="hire">Hire Me</a>
+          </div> {% endcomment %}
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
+  <br><br>
+  {% include "ecom/footer.html" %}
+</body>
+</html>

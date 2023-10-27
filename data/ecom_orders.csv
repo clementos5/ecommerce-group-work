@@ -1,0 +1,12 @@
+id,email,address,mobile,order_date,status,customer_id,product_id
+3,joy1@gmail.com,"399st kicukiro, 411 Nyamirambo",785802150,2023-10-26,Pending,2,6
+6,joy1@gmail.com,"399st kicukiro, 411 Nyamirambo",785802150,2023-10-26,Pending,2,37
+1,clemalex00@gmail.com,"399st kicukiro, 411 st kicukiro",785805215,2023-10-26,Delivered,1,5
+5,joy1@gmail.com,"399st kicukiro, 411 Nyamirambo",785802150,2023-10-26,Order Confirmed,2,29
+4,joy1@gmail.com,"399st kicukiro, 411 Nyamirambo",785802150,2023-10-26,Out for Delivery,2,13
+2,joy1@gmail.com,"399st kicukiro, 411 Nyamirambo",785802150,2023-10-26,Delivered,2,5
+7,clemalex00@gmail.com,"399st kicukiro, 411 st kicukiro",785805215,2023-10-26,Pending,1,4
+8,clemalex00@gmail.com,"399st kicukiro, 411 st kicukiro",785805215,2023-10-26,Pending,1,5
+9,clemalex00@gmail.com,"399st kicukiro, 411 st kicukiro",785805215,2023-10-26,Pending,1,21
+10,malidioscord@gmail.com,"3KN  221st Nyamirambo, 411st Nyamirambo",78888767,2023-10-26,Pending,3,8
+11,malidioscord@gmail.com,"3KN  221st Nyamirambo, 411st Nyamirambo",78888767,2023-10-26,Pending,3,16
