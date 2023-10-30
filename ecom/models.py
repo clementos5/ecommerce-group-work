@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
 class Customer(models.Model):
+    # Define an explicit primary key field
+
     user=models.OneToOneField(User,on_delete=models.CASCADE)
     profile_pic= models.ImageField(upload_to='profile_pic/CustomerProfilePic/',null=True,blank=True)
     address = models.CharField(max_length=40)
@@ -17,6 +19,7 @@ class Customer(models.Model):
 
 
 class Product(models.Model):
+    # Define an explicit primary key field
     name=models.CharField(max_length=40)
     product_image= models.ImageField(upload_to='product_image/',null=True,blank=True)
     price = models.PositiveIntegerField()
@@ -26,6 +29,7 @@ class Product(models.Model):
 
 
 class Orders(models.Model):
+    # Define an explicit primary key field
     STATUS =(
         ('Pending','Pending'),
         ('Order Confirmed','Order Confirmed'),
@@ -42,6 +46,7 @@ class Orders(models.Model):
 
 
 class Feedback(models.Model):
+    # Define an explicit primary key field
     name=models.CharField(max_length=40)
     feedback=models.CharField(max_length=500)
     date= models.DateField(auto_now_add=True,null=True)
