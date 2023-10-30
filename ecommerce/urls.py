@@ -1,9 +1,6 @@
 """
 
-Developed By : sumit kumar
-facebook : fb.com/sumit.luv
-Youtube :youtube.com/lazycoders
-
+Developed By : Data Miners
 
 """
 from django.contrib import admin
